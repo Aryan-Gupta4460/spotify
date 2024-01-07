@@ -1,0 +1,228 @@
+2024-01-07T15:53:03.956+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T15:53:03.972+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T15:53:52.677+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T15:53:52.682+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T15:54:02.283+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byartist?artist=The%20White%20Stripes 2.096228ms 456 Bytes
+2024-01-07T15:54:40.386+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=USVT10300001 1.841113ms 259 Bytes
+2024-01-07T15:55:38.955+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 63.524µs 307 Bytes
+2024-01-07T15:56:04.425+0530	ERROR	lt/handler.go:140	no tracks found
+2024-01-07T15:56:04.429+0530	ERROR	lt/handler.go:86	no tracks found
+2024-01-07T15:56:04.430+0530	INFO	api/web.go:136	POST 200 /api/v1/lt/spotify/create_track 158.213353ms 81 Bytes
+2024-01-07T15:56:15.522+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 715.619µs 307 Bytes
+2024-01-07T15:56:15.885+0530	INFO	lt/handler.go:52	BQBioBU5eOIGQRaRMO8LQn5TenUlCXcubGwL3-1P1C2QDZuTEdIuyIfm5HRo1FZB0nZbZTqrY59cf_cROw4L4E4VyRfV8ftYKj3c5oYw5BSQwAQeOqrdOvPIUVSLs83cEPKHn4aJXMS5ZBrdKpsW3n3dPEPf3ms7yjRMUulphYObK_vCv6OYxIkbbdamsp2zaHLuXpxOYtCwQ1V9gnL22w
+2024-01-07T15:56:15.885+0530	INFO	lt/handler.go:54	BQBioBU5eOIGQRaRMO8LQn5TenUlCXcubGwL3-1P1C2QDZuTEdIuyIfm5HRo1FZB0nZbZTqrY59cf_cROw4L4E4VyRfV8ftYKj3c5oYw5BSQwAQeOqrdOvPIUVSLs83cEPKHn4aJXMS5ZBrdKpsW3n3dPEPf3ms7yjRMUulphYObK_vCv6OYxIkbbdamsp2zaHLuXpxOYtCwQ1V9gnL22w
+2024-01-07T15:56:15.886+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/callback?code=AQAoBUBjqtcmGIWQkKIuoRL-Sosnu0eTGJpK7fxj7LMh71vDwhCKoPklRlwPb85QhWSJrpjgWPj9V3i0ACGKWgBQ3BNNZfxe_cjrXX1IXt2xGibxw_7W3t_IcySwtweRZVU7rfJQqBRlM13aCcHTispfrNXYg_Rk5_a7uvvmFCFy7Eub4lsvqv4qvc2ChHDf6WifuBM9zvZIglKvOiqhN3pr4pcGVEi1sAd5-1fy7z_i2mqSDrUVJQ&state=Rx3EqrdXAMcPxcBCbsfevw%3D%3D 160.97193ms 37 Bytes
+2024-01-07T15:56:21.219+0530	ERROR	lt/handler.go:86	ISRC is empty
+2024-01-07T15:56:21.220+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 316.743347ms 79 Bytes  ***
+2024-01-07T15:59:08.176+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 367.313µs 307 Bytes
+2024-01-07T15:59:08.616+0530	INFO	lt/handler.go:52	BQCW6Whz6PBb4Z2tPTErkN1FzP6ei7Eb7_hxF4IzLxytV-AFtSP8XKr1sfYvEFQ5yvnDANU4PriCbMg6KIaZJHdgvzUbSyjys8AhgKD57aXTAZmLoefpXJpONMv7GaCgg1Yoa8tpv7eJGLc4YqfTaJ3ie-eyRXbGW3KZOX0fjxxtoBn_Z4Wds-khP53KL5tVOcOmugPIC3-nvdcA_cPQ8Q
+2024-01-07T15:59:08.616+0530	INFO	lt/handler.go:54	BQCW6Whz6PBb4Z2tPTErkN1FzP6ei7Eb7_hxF4IzLxytV-AFtSP8XKr1sfYvEFQ5yvnDANU4PriCbMg6KIaZJHdgvzUbSyjys8AhgKD57aXTAZmLoefpXJpONMv7GaCgg1Yoa8tpv7eJGLc4YqfTaJ3ie-eyRXbGW3KZOX0fjxxtoBn_Z4Wds-khP53KL5tVOcOmugPIC3-nvdcA_cPQ8Q
+2024-01-07T15:59:08.617+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQBEgQDw593GuoIzUniwQx4eBVBSlGkkEV6js9-sPFi7WluIebfhYJhQhng1lO5jQsXyh19nZcLHbYQtSh1-ShudEfrqJ8weJf33SXDHMQOdgcEG9kxzH-XDUCcS1a8SUGCot89CnbP4QvhWrRkDzKKo8-INk32gZvE-RK_KhK0UYIaqSiVW-EnRQ10_iZ6RtoEOeT4KRHAGiKS1qidQB-jkDL3GAaCqrr8V7IUgGDL8ogUNrFSrtQ&state=i8r-kiwmPKEoSkaP0jxyrw%3D%3D 216.605012ms 37 Bytes  ***
+2024-01-07T15:59:31.311+0530	ERROR	lt/handler.go:166	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T15:59:31.312+0530	ERROR	lt/handler.go:86	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T15:59:31.312+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 295.622324ms 161 Bytes  ***
+2024-01-07T16:00:53.093+0530	ERROR	lt/handler.go:86	ISRC is empty
+2024-01-07T16:00:53.094+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 253.433961ms 79 Bytes  ***
+2024-01-07T16:03:16.998+0530	ERROR	lt/handler.go:166	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:03:16.998+0530	ERROR	lt/handler.go:86	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:03:16.998+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 233.099651ms 161 Bytes  ***
+2024-01-07T16:03:44.216+0530	ERROR	lt/handler.go:86	ISRC is empty
+2024-01-07T16:03:44.217+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 250.676767ms 79 Bytes  ***
+2024-01-07T16:03:58.457+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T16:03:58.464+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T16:04:33.481+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 1.126739ms 307 Bytes
+2024-01-07T16:04:33.882+0530	INFO	lt/handler.go:52	BQCiYqIMN4uqDq7-wy0dK25WZ-RSv7laWF-cGWodIXLlRXA7wpgYco5F5fo6x1c9IfvndZRRhB4jFa2deeulk0BjzmgZTzZ49eoaaJO4KsBR8axbPmE4U1bnJdPh0TKtRdac_GhuobJTA-YkQRruGaPCDSb8Qiu1pkgXpaRS2jDLdSFSGkT4KIfumEUVa5Da2njYzwVyrxJCwHQErCtK9w
+2024-01-07T16:04:33.884+0530	INFO	lt/handler.go:54	BQCiYqIMN4uqDq7-wy0dK25WZ-RSv7laWF-cGWodIXLlRXA7wpgYco5F5fo6x1c9IfvndZRRhB4jFa2deeulk0BjzmgZTzZ49eoaaJO4KsBR8axbPmE4U1bnJdPh0TKtRdac_GhuobJTA-YkQRruGaPCDSb8Qiu1pkgXpaRS2jDLdSFSGkT4KIfumEUVa5Da2njYzwVyrxJCwHQErCtK9w
+2024-01-07T16:04:33.886+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQCPdYQ0AePObqzl9G-H5cHR42Whqpz2hkBRFhCkf1urRYi3Iw4CY0BySY0Tk4wvO_wUMwy_Y-pkVDLLsv_YKPVYN20P40wIqzyGmRs1M5ReX4MCSiQ2FwHnKNVXLHTGQqacmhdmW-kU7sbKkEBgC70wg1bmpOZuiA8-e40iY5b3mzhlP5PSTBq_Y2V_DQHuOqRE0CLOqn_SKSk2WrtPcqhW_K1cpfTIUWcXyH4TEe9ebDeSr94BjQ&state=Qt_E4eWHAF3nwxmD72B2uA%3D%3D 221.844139ms 37 Bytes  ***
+2024-01-07T16:04:50.951+0530	ERROR	lt/handler.go:166	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:05:29.026+0530	ERROR	lt/handler.go:86	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:06:22.945+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 1m42.865460693s 161 Bytes  ***
+2024-01-07T16:07:21.082+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T16:07:21.094+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T16:08:04.602+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 608.023µs 307 Bytes
+2024-01-07T16:08:05.042+0530	INFO	lt/handler.go:51	BQD4PGxYrDitPWyx54XD9jKmeGada5OFur8OEHo389EK9Y3jxeGVDHBkd4P4QUKstFgpn2WtDnueqdRNeM4lA0dcSuaNx4BN9FZ3fVT0SokSc6_Y-oLy3JpDC6UNK0g3ivfF6sexw4iKnP4E5hvSjXn5XVWTjEklL3Rk_ccLagNTISCCz2WQo0coNd-z_GT-Egiverq49fPWASbPCAf_Hg
+2024-01-07T16:08:05.044+0530	INFO	lt/handler.go:53	BQD4PGxYrDitPWyx54XD9jKmeGada5OFur8OEHo389EK9Y3jxeGVDHBkd4P4QUKstFgpn2WtDnueqdRNeM4lA0dcSuaNx4BN9FZ3fVT0SokSc6_Y-oLy3JpDC6UNK0g3ivfF6sexw4iKnP4E5hvSjXn5XVWTjEklL3Rk_ccLagNTISCCz2WQo0coNd-z_GT-Egiverq49fPWASbPCAf_Hg
+2024-01-07T16:08:05.045+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQDORUWjmtilE9N2qMAbSJj7HGoLKkPeGCoBlGuhwnt2Vr9DCYxKDmO1Bm-789DpwWxriKFb7A8Rx96wR8n8AFuiPdbVIra7G-jwHzFFTSX7ZZpyYBfxCanV1xphkx8GJVs148FW9qryzmuOZusr8o40AZzuYiEuoKuSRvidc7xZkzrHJ6rpS6HpAevEW-pB9H6T_muIeY5JlBLt7yIKMzKYTriVA9CtJJt3mZ3NnhC3i6f-EDgBSg&state=iyhl9F4fy-jKeTfoiB0lYg%3D%3D 211.717501ms 37 Bytes  ***
+2024-01-07T16:08:19.501+0530	ERROR	lt/handler.go:139	no tracks found
+2024-01-07T16:08:19.502+0530	ERROR	lt/handler.go:85	no tracks found
+2024-01-07T16:08:19.503+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 211.559009ms 81 Bytes  ***
+2024-01-07T16:09:54.348+0530	ERROR	lt/handler.go:139	no tracks found
+2024-01-07T16:09:54.362+0530	ERROR	lt/handler.go:85	no tracks found
+2024-01-07T16:09:54.368+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 267.894053ms 81 Bytes  ***
+2024-01-07T16:10:46.693+0530	ERROR	lt/handler.go:163	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:11:13.223+0530	ERROR	lt/handler.go:85	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:11:13.226+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 33.597810223s 161 Bytes  ***
+2024-01-07T16:11:18.260+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T16:11:18.267+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T16:11:39.249+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 1.539411ms 307 Bytes
+2024-01-07T16:11:39.682+0530	INFO	lt/handler.go:51	BQBfBIZ5-CxIJMAcdDSeTvPDigQEY3nT07iSIojNutnwYOgYp5jh8MEsMzpKtas05kSFAf8z44IFND63Ds1MA0WQrQSHhwoKu-ehAidoJcvSgGwM8RgnGfW64kMYblInByYVfWgtRDhs_S62cdJgMELO5VMYpwLOhkq0QJunKA3O6qV5qDIbj2Zn5U3OG8iADZikdqT0OPr9V0rnCIhTaQ
+2024-01-07T16:11:39.682+0530	INFO	lt/handler.go:53	BQBfBIZ5-CxIJMAcdDSeTvPDigQEY3nT07iSIojNutnwYOgYp5jh8MEsMzpKtas05kSFAf8z44IFND63Ds1MA0WQrQSHhwoKu-ehAidoJcvSgGwM8RgnGfW64kMYblInByYVfWgtRDhs_S62cdJgMELO5VMYpwLOhkq0QJunKA3O6qV5qDIbj2Zn5U3OG8iADZikdqT0OPr9V0rnCIhTaQ
+2024-01-07T16:11:39.682+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQD_fvjgy0RrQxbYXSHOgrCPpJOcddbUJZJRRClfWRRoTfqLrkjH-zdCUsDvBTtPjX1E8YTYgRkGuRskEHYcgxMtE1QqDpLKp3uunPPfPZkyApDqHkrTZdcKrOFlT42UtzQhGzIHW8-aWWJR0LaNzN7O7pn1VcyzLVaE0tWqMd96Xhfzz0jY0KSdwK2e6Y2gojqzyFzdd-1wA9lnUQJ5TeQhePNcgM-GF2tia5sCxHowzM94k6SrFQ&state=CpI93CsjecOL9aDCfiQPgw%3D%3D 229.81925ms 37 Bytes  ***
+2024-01-07T16:11:51.963+0530	ERROR	lt/handler.go:163	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:11:51.972+0530	ERROR	lt/handler.go:85	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:11:51.995+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 6.119217129s 161 Bytes  ***
+2024-01-07T16:11:58.110+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T16:11:58.115+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T16:12:06.117+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 134.932µs 307 Bytes
+2024-01-07T16:12:06.531+0530	INFO	lt/handler.go:51	BQBLgbi0zQaMzWb7nbn_BWr-ugQT0KItimGccICm9ECQfPfZbnRuDs8-9Asxth01JByeTaGnIAkouJvtuqFBBtr-Tv-7rFyrduAiJ7MXW7qBgVKvtLrACcAu9XQau51QlqxYapm7DpCm4MdlmZknD-pOHUqXYKLMnuZz_Vnmx_-CAopci2Yvc0iCKU0qr12BFkoBhGvvlI_M2m-4VaI7mw
+2024-01-07T16:12:06.532+0530	INFO	lt/handler.go:53	BQBLgbi0zQaMzWb7nbn_BWr-ugQT0KItimGccICm9ECQfPfZbnRuDs8-9Asxth01JByeTaGnIAkouJvtuqFBBtr-Tv-7rFyrduAiJ7MXW7qBgVKvtLrACcAu9XQau51QlqxYapm7DpCm4MdlmZknD-pOHUqXYKLMnuZz_Vnmx_-CAopci2Yvc0iCKU0qr12BFkoBhGvvlI_M2m-4VaI7mw
+2024-01-07T16:12:06.532+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQDNSSrLb27qmnXwJFf0eufZFCYIA-AoczgHxDnUcGVoJkLLs7VKFmksJdz21iKeM8x6LJhNvTLX2f1sbjYze4lA6y2g5rtrF0LovLA1l_rvjXBr6DiQ_Lw_T2wCAC5SMbv-90TkKZLUk7gw4VZ81UUoobi5Bc7M1GyQYOAysVRNnrUattDNIKqx6AOnf3wZopZOt3PdEAIJXO7PsorG0RKzzQDzhemrNusqs840zrQV2Sr-LnvcGg&state=aDCjo47BfPBDFl5JY4FC7Q%3D%3D 249.773255ms 37 Bytes  ***
+2024-01-07T16:12:20.178+0530	ERROR	lt/handler.go:163	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:12:20.179+0530	ERROR	lt/handler.go:85	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:12:20.179+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 311.717989ms 161 Bytes  ***
+2024-01-07T16:12:41.199+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 274.965205ms 260 Bytes  ***
+2024-01-07T16:12:56.842+0530	ERROR	lt/handler.go:139	no tracks found
+2024-01-07T16:12:56.843+0530	ERROR	lt/handler.go:85	no tracks found
+2024-01-07T16:12:56.843+0530	INFO	api/web.go:136	POST 200 /api/v1/lt/spotify/create_track 118.7759ms 81 Bytes
+2024-01-07T16:13:17.246+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 277.358231ms 254 Bytes  ***
+2024-01-07T16:13:44.919+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 291.816434ms 248 Bytes  ***
+2024-01-07T16:14:01.482+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 222.647481ms 251 Bytes  ***
+2024-01-07T16:14:12.860+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=USVT10300001 1.73534ms 272 Bytes
+2024-01-07T16:14:18.581+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byartist?artist=The%20White%20Stripes 2.37197ms 276 Bytes
+2024-01-07T16:34:39.574+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T16:34:39.580+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T16:35:01.077+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 131.23µs 307 Bytes
+2024-01-07T16:35:01.538+0530	INFO	lt/handler.go:51	BQAd17dkx43UYHeOHFqNrJRMutDrHm9T-GkI94Xi1D5FKIoz8pX347LxNu2TCKLVpO3avaF8uU4pHTZq_AWGEGa7RezKGb0ERMm3pvzjEwcrfpSXPQJY8kcPh7aHrwLj3V9zuuLznYzq0jSPEbLMrjM_SM4iQqCpX-CxbnWPAn2nUIy8BDokKQ4xt0yHHKwFyfZ5Bzyr2PohXw5ZDsm5tw
+2024-01-07T16:35:01.540+0530	INFO	lt/handler.go:53	BQAd17dkx43UYHeOHFqNrJRMutDrHm9T-GkI94Xi1D5FKIoz8pX347LxNu2TCKLVpO3avaF8uU4pHTZq_AWGEGa7RezKGb0ERMm3pvzjEwcrfpSXPQJY8kcPh7aHrwLj3V9zuuLznYzq0jSPEbLMrjM_SM4iQqCpX-CxbnWPAn2nUIy8BDokKQ4xt0yHHKwFyfZ5Bzyr2PohXw5ZDsm5tw
+2024-01-07T16:35:01.540+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQDU3A5W0fKI4F1U8MUSYzYuDkaWdJkm5iW7_O7K9dg6xza_JJ78A211ZhepqAF1L6DZsPnV6L6eUuPgHdjV21g1zwVtubCPQStjhj6r5KkpgUYxgetRhO_-Sgin8de5BYtuG-Py1ra7_iBq58JfBbNfU52cJcPzpN6n57ddaY8uPDcYB8_hbN-mPLkEbhY_2E_Ofh2LNiEKaDfwJaKViROqq40UBSaA9x1LUKqgxfod9vXm5tIioA&state=fNccFFJHcsleO5OOMtJopQ%3D%3D 214.637694ms 37 Bytes  ***
+2024-01-07T16:35:09.568+0530	ERROR	lt/handler.go:163	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:35:09.569+0530	ERROR	lt/handler.go:85	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:35:09.570+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 493.483525ms 161 Bytes  ***
+2024-01-07T16:35:26.173+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 216.667478ms 251 Bytes  ***
+2024-01-07T16:37:38.516+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 3.015523ms 307 Bytes
+2024-01-07T16:37:38.963+0530	INFO	lt/handler.go:51	BQCNpReI9woWdqPhmP33aBgYh2ynKCCDUCmEmAllnGzH6NTKAS5Q00yeJhJIzUbSoaVY2B7RoiLNx1VtkvbDASxYsUM51tQpWqzDKFuEcZNQIbkl6Vd93t2c8Nnr5MFdHRKQskZC6wZYORN2vxK6SYK58RuyJ33-XP_DQJ76h5EjPDyFRhQsr-AkSIomNkqsuCQZiYaskAcXNJU0vDAT2g
+2024-01-07T16:37:38.963+0530	INFO	lt/handler.go:53	BQCNpReI9woWdqPhmP33aBgYh2ynKCCDUCmEmAllnGzH6NTKAS5Q00yeJhJIzUbSoaVY2B7RoiLNx1VtkvbDASxYsUM51tQpWqzDKFuEcZNQIbkl6Vd93t2c8Nnr5MFdHRKQskZC6wZYORN2vxK6SYK58RuyJ33-XP_DQJ76h5EjPDyFRhQsr-AkSIomNkqsuCQZiYaskAcXNJU0vDAT2g
+2024-01-07T16:37:38.964+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/callback?code=AQAdStGBrGADfA3Ka6haNQ5W8hfRGUx87rJFhUklVmfvD9bNHfigN9l-OwlsFqRS8gcjW1VuMlVixdfnoT9eR6LpAx3x1apEKAIqRohj_rSPl0G0cwzFCEWYzXK1U7q1oA6Dw81nuuLD6hJA8jepH5X4ykE4266UvQfBsG3PXYu5iqbca0napmA1NirEKA60t6-2L27bTsUQt1NKm9bJOe9dAhis96o9SDcRnVXxnxi2rTujnCt3aQ&state=afgd57FFl1xjnx2Doil-SQ%3D%3D 187.547346ms 37 Bytes
+2024-01-07T16:37:44.872+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 405.856469ms 251 Bytes  ***
+2024-01-07T16:40:44.181+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 122.816µs 307 Bytes
+2024-01-07T16:40:44.623+0530	INFO	lt/handler.go:51	BQDYP1UAo581UniDFeq5oJZLNNQIQGo-V41qx0OyRjTSWLsNqWX3M-twp_dUTzs52WQcm_KJGDZWwBqF1WjKLVlMvW6_ctmFTL92fyQCjEv7jEJULKqjVbq6hOPUEhNxKxVV7Eq6Gau4JuoDOPO6t_DPsp-UgBnoabUGKr6pj67gW4bEh4ydClEDsP3tz9r6KlKBoFt1l5ArzIOW10tnsQ
+2024-01-07T16:40:44.623+0530	INFO	lt/handler.go:53	BQDYP1UAo581UniDFeq5oJZLNNQIQGo-V41qx0OyRjTSWLsNqWX3M-twp_dUTzs52WQcm_KJGDZWwBqF1WjKLVlMvW6_ctmFTL92fyQCjEv7jEJULKqjVbq6hOPUEhNxKxVV7Eq6Gau4JuoDOPO6t_DPsp-UgBnoabUGKr6pj67gW4bEh4ydClEDsP3tz9r6KlKBoFt1l5ArzIOW10tnsQ
+2024-01-07T16:40:44.623+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQDofHtdlcZz4lUCRuyQFlUPH2ioBvP3RBY4YBodjkenwy_y-6nMLd9WbpjBoUB6fr7GCyHzi7sKeno8C1eKhaHKB-lEQLtfPAmxqLxkoXvm6zDHkejXXK3yNnRdcti8UB7K32vub8z21CtJscocidbdTjrlPrE2cMlx0oRHuxB8mw1wOaxf5A3wA2ewcX0OPp5Cu8Mm8LpZgQURPBNWfYL-zJNUFLE4CESu-pzd-YKcheOLZlgVeQ&state=wxJ5XZO-wEeAAqbq1E383Q%3D%3D 209.536496ms 37 Bytes  ***
+2024-01-07T16:41:03.897+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 279.962696ms 251 Bytes  ***
+2024-01-07T16:46:20.379+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 529.54µs 307 Bytes
+2024-01-07T16:46:20.706+0530	ERROR	lt/handler.go:163	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:46:20.706+0530	ERROR	lt/handler.go:85	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:46:20.707+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 330.281351ms 161 Bytes  ***
+2024-01-07T16:46:20.779+0530	INFO	lt/handler.go:51	BQAHtTWt6Uwpw3bDHNL4ppUNkwfPdaI2X0gECDQMvYhWO6s_5yLa6mA0ZpA1ka8i28JNvn8BZXgidRHT-fXpB4uM9LpIphY6mKZCUzcFFpSamN1Ftx2mSrAmvba8QSrhoDOeIMxh1QzB08LX46TVobG7iavnXiac9-3-jfKckusN9S9mRXClc_LNxgbb9Nj_nmaziZpR7Qn-gZ5tyKFo5w
+2024-01-07T16:46:20.780+0530	INFO	lt/handler.go:53	BQAHtTWt6Uwpw3bDHNL4ppUNkwfPdaI2X0gECDQMvYhWO6s_5yLa6mA0ZpA1ka8i28JNvn8BZXgidRHT-fXpB4uM9LpIphY6mKZCUzcFFpSamN1Ftx2mSrAmvba8QSrhoDOeIMxh1QzB08LX46TVobG7iavnXiac9-3-jfKckusN9S9mRXClc_LNxgbb9Nj_nmaziZpR7Qn-gZ5tyKFo5w
+2024-01-07T16:46:20.780+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/callback?code=AQD0Yn3mFZc5nNkZx4-RQHRgGeLiI0W-RxwEranhjvipImURtiIDbefCpONMmNPxGf9T1DhwmkmGe3VGz8ym-4nX0rcejo-bm7xqwhlQzdZQ53FJLuAqD0zZn1irfFWq-Bb0xeHR9xHfFAiUV73d_9ZIc_M0UDycQ_XEm3zI2yafTyZgqrRlL7hzX8RmeEKSvqulXJ51n4laflwj7YpBMmmYLwTZ1ljUoxKFyjUDId5YcoyoNLO6sg&state=OT7CePzSQlCB1SooX10AwQ%3D%3D 154.768194ms 37 Bytes
+2024-01-07T16:46:20.799+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 421.065052ms 248 Bytes  ***
+2024-01-07T16:46:39.511+0530	INFO	app/boot.go:31	Spotify Service  started.
+2024-01-07T16:46:39.518+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T16:46:58.844+0530	INFO	api/web.go:134	GET 403 /api/v1/lt/spotify/callback 296.853958ms 19 Bytes  ***
+2024-01-07T16:47:06.060+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 41.262µs 307 Bytes
+2024-01-07T16:47:06.370+0530	INFO	lt/handler.go:51	BQBV2lbnt6ZgLwcmW5qnJ2Ru3dfuhmJ9NLsm5_0zBEZ1bFxE3DGiNZ7_PzigWH9LG0rH39dTFc_zF6Nn7sGUHqN_SQrJSEkpsL09jh8IZ8mGk29KuQFd4zgwHzJarIuqfe5ciSo4zMDKqKqvO6uHVtJ_v8wmlJylNdKlDnsAVYmFd7X2BAzonijiIrOYRURIWaVEzTF-yBUys3RGaZ37Kw
+2024-01-07T16:47:06.372+0530	INFO	lt/handler.go:53	BQBV2lbnt6ZgLwcmW5qnJ2Ru3dfuhmJ9NLsm5_0zBEZ1bFxE3DGiNZ7_PzigWH9LG0rH39dTFc_zF6Nn7sGUHqN_SQrJSEkpsL09jh8IZ8mGk29KuQFd4zgwHzJarIuqfe5ciSo4zMDKqKqvO6uHVtJ_v8wmlJylNdKlDnsAVYmFd7X2BAzonijiIrOYRURIWaVEzTF-yBUys3RGaZ37Kw
+2024-01-07T16:47:06.372+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/callback?code=AQDeBH6akaXvkVQsUEIqT17CbwUiTiDrl23zJA5mYD8B7tCPW8XjeZGr-mZKzLAWCEn52WTL2LvN0TbIUd-uaXJxQNTYLWYvYjuT9aquQV-x6k-G_58Ld0dA52f_QhQBs72iJsL99Q6ig2rqFFFgATX1Nv3rHuLd2CAGZxiWJfBr0vApQ7MZuv-i79NjI3nADmMqPAYO4POGHNkyYCoJaM4XAn3f7HONu6BOsEi0qzpe4mO4zY_l8A&state=i3uSBY-OYleJBR-ATI5tRg%3D%3D 130.393789ms 37 Bytes
+2024-01-07T16:47:21.693+0530	ERROR	lt/handler.go:163	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:47:21.693+0530	ERROR	lt/handler.go:85	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T16:47:21.694+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 348.757722ms 161 Bytes  ***
+2024-01-07T16:47:44.947+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 263.691188ms 265 Bytes  ***
+2024-01-07T16:48:09.628+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 291.754421ms 271 Bytes  ***
+2024-01-07T17:19:15.592+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T17:19:15.595+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T17:19:15.686+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T17:19:15.692+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T17:33:05.600+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T17:33:05.601+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T17:33:05.685+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T17:33:05.693+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T17:33:56.609+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 959.478µs 307 Bytes
+2024-01-07T17:33:57.181+0530	INFO	lt/handler.go:51	BQAct6Jr4xtse1aFuHyvejD1xHygHZyh3P214l0fvQS9AUB2GjCs4q4f2K4mZVSqrghQlPtNHs_0G4wl4pzwHseFXwwRfxjVrjgMxNrfYgYfrrYdeAAAHW_U13N08dfES5ZDsSxHpKv2Aw-Em45VgkKcJ4pvRfWbbY9iSUxUe4B8BZrUteJLhcxmcoCiUtbSvVBtrp5rhPRUNmM1UNFQzg
+2024-01-07T17:33:57.182+0530	INFO	lt/handler.go:53	BQAct6Jr4xtse1aFuHyvejD1xHygHZyh3P214l0fvQS9AUB2GjCs4q4f2K4mZVSqrghQlPtNHs_0G4wl4pzwHseFXwwRfxjVrjgMxNrfYgYfrrYdeAAAHW_U13N08dfES5ZDsSxHpKv2Aw-Em45VgkKcJ4pvRfWbbY9iSUxUe4B8BZrUteJLhcxmcoCiUtbSvVBtrp5rhPRUNmM1UNFQzg
+2024-01-07T17:33:57.184+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQANIbIxjV4tf_-HVklLzs-169PGZN7ZDP9DcC1u2Gwzdky9cKxpyw2B9lSIBcQpF7iOiY320PErU_9WC6oDBtZGhWFW6Ea93yOLOCaKqnoo-CQSvY_H7axwrdLdBbDoqSKRiqhS6qGQUE3WNwYkEiy7ancUzRomWs3WNug2xuv3sMQO9YXYWo0B7ZXTzxcqedcBwgCnOJibXbkXGVVltgRqjJwiOpj6u-k5h8BZngaaWm0VeruOJQ&state=vKWbqO8rGfifo6pMnbMcmg%3D%3D 298.41246ms 37 Bytes  ***
+2024-01-07T17:34:23.492+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 306.417881ms 671 Bytes  ***
+2024-01-07T17:50:35.843+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T17:50:35.844+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T17:50:35.920+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T17:50:35.925+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T17:51:35.715+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 1.121693ms 307 Bytes
+2024-01-07T17:51:36.187+0530	INFO	lt/handler.go:51	BQBI5htXSNb0ei7jsGHuhRVZf9x0pkGPNtLFhGIEJik8oIfZJITbZYwOSY3YQPlbOBszS_654gj3av9n7U6TrHKqCcu-0pkcOyAQoVXGIAxGAxTxxX88oPk4UVebfOtxHSuoRhZV16IJqAfmq9FbUTrYuefHA0duazAwyhI4CSsVT65QcbDmRP9LfuJJRymXR3k0KMKWmOijWOrr9h-iiQ
+2024-01-07T17:51:36.188+0530	INFO	lt/handler.go:53	BQBI5htXSNb0ei7jsGHuhRVZf9x0pkGPNtLFhGIEJik8oIfZJITbZYwOSY3YQPlbOBszS_654gj3av9n7U6TrHKqCcu-0pkcOyAQoVXGIAxGAxTxxX88oPk4UVebfOtxHSuoRhZV16IJqAfmq9FbUTrYuefHA0duazAwyhI4CSsVT65QcbDmRP9LfuJJRymXR3k0KMKWmOijWOrr9h-iiQ
+2024-01-07T17:51:36.188+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQCKUkDsZorzkjonNcU7uBVWaYRTz-Wj3eQDWRfosex2J9m9ZhbsZgPlu6zTAqnpwUM7fU7h9JfEqj-k02NAPuYCPnvLODLl4B4LJ4Krpx__b_eAUSSkFiEKK0RXCPg0Q52Wo3lezBYi9wAQSzX8t19JJT01csP99nI8JJ0VZkQlATE-eQuQbJB5QRJOoda7R3J0P_L6kHXdfJAH2BkXEVvirZuUo4TrET7jiVKlML_FJ3uK3DIKAQ&state=TLFKmJN8E0r2BJgCnvvfAw%3D%3D 210.533395ms 37 Bytes  ***
+2024-01-07T17:51:42.767+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 255.733595ms 671 Bytes  ***
+2024-01-07T17:53:27.884+0530	INFO	lt/manager.go:103	Auth token Check Failed : redisKey : INTERNAL_ACCESS_TOKEN_BQBI5htXSNb0ei7jsGHuhRVZf9x0pkGPNtLFhGIEJik8oIfZJITbZYwOSY3YQPlbOBszS_654gj3av9n7U6TrHKqCcu-0pkcOyAQoVXGIAxGAxTxxX88oPk4UVebfOtxHSuoRhZV16IJqAfmq9FbUTrYuefHA0duazAwyhI4CSsVT65QcbDmRP9LfuJJRymXR3k0KMKWmOijWOrr9h-iiQ, redisKeyValue : "6d0a8d364f4507fe467edc383bad5aa50314358c4ca79186b573487e6dcbd36237640dcdeed6e033bf79b7d80205ff2de682eed58b59a74d22be91b215f381d872d8187afd4d387aec0766c8cfaa1162c416a9dc43b49aef1f20c75ad770058731bfa64da0287e217a7c889771192b7fa84065c63d470a3ca0ccf79aa0a8e69c101749ad8643e3c5367a49ec5d12551d6a633ddf25f91b29d70f411453bac1cb6ecddd5bde07d32006bc050bf76d08208d183a03b0e7ac145b516515de00160ced3b3f2ff45cd4d2", authToken :  + authKey + 
+2024-01-07T17:53:27.884+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=GBAYE0601498 591.227µs 76 Bytes
+2024-01-07T18:13:17.268+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T18:13:17.271+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T18:13:17.361+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T18:13:17.370+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T18:13:46.890+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 870.845µs 307 Bytes
+2024-01-07T18:13:47.396+0530	INFO	lt/handler.go:51	BQC3_VFyo_u0b8ZrGba-6Sofdtiz_svRu5_-brHD8stpG4nItNiaceNLfZXzY6yszRzpxN3BtL1N_0pweVQKr1KdYnZgi4ihdFXZ8q4ZWeh5zMwJhMa0ZNk7Qp27LKYCebC39AG0fcwjHVfPdjIOLt699pYQts8llO_yBbdZKwciH12iszj5zKw34BD3xzUlVBitF-YO77BsQc826kspnA
+2024-01-07T18:13:47.396+0530	INFO	lt/handler.go:53	BQC3_VFyo_u0b8ZrGba-6Sofdtiz_svRu5_-brHD8stpG4nItNiaceNLfZXzY6yszRzpxN3BtL1N_0pweVQKr1KdYnZgi4ihdFXZ8q4ZWeh5zMwJhMa0ZNk7Qp27LKYCebC39AG0fcwjHVfPdjIOLt699pYQts8llO_yBbdZKwciH12iszj5zKw34BD3xzUlVBitF-YO77BsQc826kspnA
+2024-01-07T18:13:47.397+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQBq84Xnf-iqloWF7MUjnj5SW_NLUHXfPJOtNGi7YeNdjQC18G9r-uJzjXIuZGjAbjJl48qAKnPOFOhzbLbYvZE9yTMLO5jyoPG1_DByrz9HuIaza3Pyv8kTkhjJagz2_-R1cYm464e7FJ7suBcNpdvIV7UWcYdXLkyCXFXtQtVYwmRiDNh92-7NctjUkEe5G0G2rwmRFLm-STzj1S0ACMgKGuEP8tZ-moGiLqUVtkHtBF1YXjMeLQ&state=rMmRSyVCvPoZ45BXP3vpBw%3D%3D 253.636486ms 37 Bytes  ***
+2024-01-07T18:14:11.348+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 332.932459ms 671 Bytes  ***
+2024-01-07T18:14:32.658+0530	INFO	lt/handler.go:188	4b30ccd251c86c8db68accbc632f6b59ec1e628eea883ca1bd4bfe7a4fdcf88b8e85b136c314b3dec55fa3a3af2d6fd48122bbf390f3038dc0d3d6e96d603572e272f9375ad0a0f7883d17fcd38a82792b97d0ff8d7b0e8a615dffa22bd10143711b53cf69731f69fad3f73dfef7c740a082a2e4f4127db8bbe0fa90d149b831c6cc2e36bc7f2db529230fcbe5f164dba3df5c2212cb8c14d39258566ac723976963a72649af92260c36cdccf398b6f2813df0298ecf2c54efd9b8a8ede8a2a3c2361dff73938dc8 HEADERPART
+2024-01-07T18:14:32.659+0530	INFO	lt/manager.go:103	Auth token Check Failed : redisKey : INTERNAL_ACCESS_TOKEN_BQC3_VFyo_u0b8ZrGba-6Sofdtiz_svRu5_-brHD8stpG4nItNiaceNLfZXzY6yszRzpxN3BtL1N_0pweVQKr1KdYnZgi4ihdFXZ8q4ZWeh5zMwJhMa0ZNk7Qp27LKYCebC39AG0fcwjHVfPdjIOLt699pYQts8llO_yBbdZKwciH12iszj5zKw34BD3xzUlVBitF-YO77BsQc826kspnA, redisKeyValue : "4b30ccd251c86c8db68accbc632f6b59ec1e628eea883ca1bd4bfe7a4fdcf88b8e85b136c314b3dec55fa3a3af2d6fd48122bbf390f3038dc0d3d6e96d603572e272f9375ad0a0f7883d17fcd38a82792b97d0ff8d7b0e8a615dffa22bd10143711b53cf69731f69fad3f73dfef7c740a082a2e4f4127db8bbe0fa90d149b831c6cc2e36bc7f2db529230fcbe5f164dba3df5c2212cb8c14d39258566ac723976963a72649af92260c36cdccf398b6f2813df0298ecf2c54efd9b8a8ede8a2a3c2361dff73938dc8", authToken :  + authKey + 
+2024-01-07T18:14:32.659+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=GBAYE0601498 1.0087ms 76 Bytes
+2024-01-07T18:26:59.335+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T18:26:59.342+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T18:26:59.447+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T18:26:59.453+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T18:27:16.727+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 545.34µs 307 Bytes
+2024-01-07T18:27:17.381+0530	INFO	lt/handler.go:51	BQBJRQ-FVty0duNlwgrzDuMtkJAkqC9XhHmOxTG9pULjrEXXDzFYiUZvAhKonJVmWPxnaSYCY1G2YE6IJ6wLdEwraj0D9MQiF93mRpcJoe5s36KRhuAOFfzyPD7JDdKv4GLn8K4GP5vBnuOPk7noG_C4YC07qERXbPBT2e53JjphLMvkGyzZSkDpmqK_VKwa3We25W0mFTCRnDYwaGb57g
+2024-01-07T18:27:17.384+0530	INFO	lt/handler.go:53	BQBJRQ-FVty0duNlwgrzDuMtkJAkqC9XhHmOxTG9pULjrEXXDzFYiUZvAhKonJVmWPxnaSYCY1G2YE6IJ6wLdEwraj0D9MQiF93mRpcJoe5s36KRhuAOFfzyPD7JDdKv4GLn8K4GP5vBnuOPk7noG_C4YC07qERXbPBT2e53JjphLMvkGyzZSkDpmqK_VKwa3We25W0mFTCRnDYwaGb57g
+2024-01-07T18:27:17.384+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQDqFtbZyY_ew6UoLPWZv5Ba3O4KBgJfETy10fJIrYiYKOQV0VLr9JIty7MJUeIm0Ib5k_5jfGLdI8GGjFabZglRl0_Kbi1Bwz8fLNcWMNTmJt4FOOimuZkcCzkjORJbvR6dn-tnETF3igUIHmSTt2ViB_gSiXMNc84ojVQ-_h9zFesobPSgBJt3Rw6l6cChDIPBWmUhnsXN_yG59XCPZbWm-pvVNlgc14huan-E3-pB2D9r_04ABg&state=1kLIBKHDSXBzQcJFDcmyLA%3D%3D 356.901215ms 37 Bytes  ***
+2024-01-07T18:27:41.766+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 538.278742ms 671 Bytes  ***
+2024-01-07T18:28:43.373+0530	INFO	lt/handler.go:188	1eb0605cdfe60931827497d48f2e8ce715e1edc1768f9d343c4380a45c05dd696a8e6a907a72b61501fefe4f9b9495461e610085a1ef8cd489e6ba697d674fc54a27abea40877c484f35812a500776c172e00337f80559e3ce6012f2efbc1d125bb67b98f28abfaf2cc1ff80583cb37c2f219fe88ce97a7369d568114b36ceb78aed9b552074226fe097b0a271f23a8b5550965785a6bd5d70b8fb855a6ec46d4eadc2c1a7b8dae243308d1accf2443c00bb27b7d968693869069569c1aefa7ba106935ac41f8c7c HEADERPART
+2024-01-07T18:28:43.375+0530	INFO	lt/manager.go:103	Auth token Check Failed : redisKey : INTERNAL_ACCESS_TOKEN_BQBJRQ-FVty0duNlwgrzDuMtkJAkqC9XhHmOxTG9pULjrEXXDzFYiUZvAhKonJVmWPxnaSYCY1G2YE6IJ6wLdEwraj0D9MQiF93mRpcJoe5s36KRhuAOFfzyPD7JDdKv4GLn8K4GP5vBnuOPk7noG_C4YC07qERXbPBT2e53JjphLMvkGyzZSkDpmqK_VKwa3We25W0mFTCRnDYwaGb57g, redisKeyValue : "1eb0605cdfe60931827497d48f2e8ce715e1edc1768f9d343c4380a45c05dd696a8e6a907a72b61501fefe4f9b9495461e610085a1ef8cd489e6ba697d674fc54a27abea40877c484f35812a500776c172e00337f80559e3ce6012f2efbc1d125bb67b98f28abfaf2cc1ff80583cb37c2f219fe88ce97a7369d568114b36ceb78aed9b552074226fe097b0a271f23a8b5550965785a6bd5d70b8fb855a6ec46d4eadc2c1a7b8dae243308d1accf2443c00bb27b7d968693869069569c1aefa7ba106935ac41f8c7c", authToken : 1eb0605cdfe60931827497d48f2e8ce715e1edc1768f9d343c4380a45c05dd696a8e6a907a72b61501fefe4f9b9495461e610085a1ef8cd489e6ba697d674fc54a27abea40877c484f35812a500776c172e00337f80559e3ce6012f2efbc1d125bb67b98f28abfaf2cc1ff80583cb37c2f219fe88ce97a7369d568114b36ceb78aed9b552074226fe097b0a271f23a8b5550965785a6bd5d70b8fb855a6ec46d4eadc2c1a7b8dae243308d1accf2443c00bb27b7d968693869069569c1aefa7ba106935ac41f8c7c
+2024-01-07T18:28:43.375+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=GBAYE0601498 2.102246ms 76 Bytes
+2024-01-07T18:28:45.949+0530	INFO	lt/handler.go:188	1eb0605cdfe60931827497d48f2e8ce715e1edc1768f9d343c4380a45c05dd696a8e6a907a72b61501fefe4f9b9495461e610085a1ef8cd489e6ba697d674fc54a27abea40877c484f35812a500776c172e00337f80559e3ce6012f2efbc1d125bb67b98f28abfaf2cc1ff80583cb37c2f219fe88ce97a7369d568114b36ceb78aed9b552074226fe097b0a271f23a8b5550965785a6bd5d70b8fb855a6ec46d4eadc2c1a7b8dae243308d1accf2443c00bb27b7d968693869069569c1aefa7ba106935ac41f8c7c HEADERPART
+2024-01-07T18:28:45.950+0530	INFO	lt/manager.go:103	Auth token Check Failed : redisKey : INTERNAL_ACCESS_TOKEN_BQBJRQ-FVty0duNlwgrzDuMtkJAkqC9XhHmOxTG9pULjrEXXDzFYiUZvAhKonJVmWPxnaSYCY1G2YE6IJ6wLdEwraj0D9MQiF93mRpcJoe5s36KRhuAOFfzyPD7JDdKv4GLn8K4GP5vBnuOPk7noG_C4YC07qERXbPBT2e53JjphLMvkGyzZSkDpmqK_VKwa3We25W0mFTCRnDYwaGb57g, redisKeyValue : "1eb0605cdfe60931827497d48f2e8ce715e1edc1768f9d343c4380a45c05dd696a8e6a907a72b61501fefe4f9b9495461e610085a1ef8cd489e6ba697d674fc54a27abea40877c484f35812a500776c172e00337f80559e3ce6012f2efbc1d125bb67b98f28abfaf2cc1ff80583cb37c2f219fe88ce97a7369d568114b36ceb78aed9b552074226fe097b0a271f23a8b5550965785a6bd5d70b8fb855a6ec46d4eadc2c1a7b8dae243308d1accf2443c00bb27b7d968693869069569c1aefa7ba106935ac41f8c7c", authToken : 1eb0605cdfe60931827497d48f2e8ce715e1edc1768f9d343c4380a45c05dd696a8e6a907a72b61501fefe4f9b9495461e610085a1ef8cd489e6ba697d674fc54a27abea40877c484f35812a500776c172e00337f80559e3ce6012f2efbc1d125bb67b98f28abfaf2cc1ff80583cb37c2f219fe88ce97a7369d568114b36ceb78aed9b552074226fe097b0a271f23a8b5550965785a6bd5d70b8fb855a6ec46d4eadc2c1a7b8dae243308d1accf2443c00bb27b7d968693869069569c1aefa7ba106935ac41f8c7c
+2024-01-07T18:28:45.950+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=GBAYE0601498 487.383µs 76 Bytes
+2024-01-07T18:30:21.431+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T18:30:21.434+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T18:30:21.526+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T18:30:21.533+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T18:31:18.307+0530	ERROR	lt/handler.go:139	no tracks found
+2024-01-07T18:31:18.307+0530	ERROR	lt/handler.go:85	no tracks found
+2024-01-07T18:31:18.308+0530	INFO	api/web.go:136	POST 200 /api/v1/lt/spotify/create_track 197.508106ms 81 Bytes
+2024-01-07T18:31:36.468+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T18:31:36.470+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T18:31:36.553+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T18:31:36.574+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T18:31:43.770+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 1.347953ms 307 Bytes
+2024-01-07T18:31:44.242+0530	INFO	lt/handler.go:51	BQC5LETU1WoExiGTyZJdjmTFJKQVPbwbyqby6XolwGqjrZjrDau6ZbmN4ChguD9wtu3PHVCiC49wRnt6uABZ6ZSGfFqIzQnKQiQ7uUCBg2pWtsDWMwBkxliNnBcnBVkSTXp9OlJx26nKx-wWe9sZNiK7w--LyK-GBl510GSTkEdyuQrtSA_jAOEDCoorccTJ3wsqKK4NQFMtwhXwOfx5aA
+2024-01-07T18:31:44.243+0530	INFO	lt/handler.go:53	BQC5LETU1WoExiGTyZJdjmTFJKQVPbwbyqby6XolwGqjrZjrDau6ZbmN4ChguD9wtu3PHVCiC49wRnt6uABZ6ZSGfFqIzQnKQiQ7uUCBg2pWtsDWMwBkxliNnBcnBVkSTXp9OlJx26nKx-wWe9sZNiK7w--LyK-GBl510GSTkEdyuQrtSA_jAOEDCoorccTJ3wsqKK4NQFMtwhXwOfx5aA
+2024-01-07T18:31:44.244+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQB9u3pFYadX60uFDKjBeINyw04ysuG-NegaGYqfg-gPjlz0tG6V3DKGJaBLESW8cCyhjpmicNazAq3UdpI35YMOjL2GUw0r6-1haZykVwlzbshSnE4XytjdpOvoruenVvnn4iVs_GFID44LgdJtzWko4n9tWoDRgLNBAFBmuQDiSBK8XqqO2hd_O2ZYi9blp9wZ-_ue8RN_Lcc3k0JvGPVGk3_jkjyLvE3iSFBWXLG-aOTuEhaGUA&state=8uZ8JzYNlXuKrKvDpxBhBQ%3D%3D 262.471875ms 37 Bytes  ***
+2024-01-07T18:32:03.210+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 497.138568ms 671 Bytes  ***
+2024-01-07T18:32:18.258+0530	INFO	lt/handler.go:188	57eb4ad974f47ef5fc079f5d5cb902839e455800076ada6dcc0e62b37e0ad5dbd6d8beffa632e9d3e9ad4eb56d2ade38c5e53d430bce92ff642464bc6978aecde35915eca35b2ea71ea1418186aa38ae4f7aa2d5868018db5f0f97215231999d9962d36063728cc97fd7e6457360a814d59fbd9f46be77849c80b9bcbd7a24d35e0168bfb78c397f6491d3cbd9cf9cf8cec980e60ee15568135e138197f8706bc9d0896914bf0387a072388aa38de708ea6245a14f6112a19fab2f3d009570933064cf8cfb175c9c HEADERPART
+2024-01-07T18:35:35.124+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T18:35:35.126+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T18:35:35.209+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T18:35:35.219+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T18:35:59.513+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 353.781µs 307 Bytes
+2024-01-07T18:36:00.060+0530	INFO	lt/handler.go:51	BQDwWSiK-LNv8kuxXERcKvB5kkCMA8qL7GOVRx8azQM5vtQwDTTH4hBCYJOPzXI4wYmBASH1zMsdyWGPy9ZD2tqE75UAt95zX99T7Ud-aB0IKre36xqSrhE9I4cRrBBvTecaukbU_iTzclSKAMf4KQ17sopGkDIskSU9-mjKS6g12bAEe2nwJrEdEcxvj3di3uTWrjIAYNibgk4bLJxXJA
+2024-01-07T18:36:00.065+0530	INFO	lt/handler.go:53	BQDwWSiK-LNv8kuxXERcKvB5kkCMA8qL7GOVRx8azQM5vtQwDTTH4hBCYJOPzXI4wYmBASH1zMsdyWGPy9ZD2tqE75UAt95zX99T7Ud-aB0IKre36xqSrhE9I4cRrBBvTecaukbU_iTzclSKAMf4KQ17sopGkDIskSU9-mjKS6g12bAEe2nwJrEdEcxvj3di3uTWrjIAYNibgk4bLJxXJA
+2024-01-07T18:36:00.066+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQDQ00umvOCvPw-GmZ5W9C1_V8ywdbZF7GAgFYFcnvteWFgGt3fQhijaClXXkFFPFy1Wqw9hEzVNYA6zjkUrlg9Y7LF2_GT-hmxiicXAL948QMvuCr457UBWgn1dzl3ZgCMDy1IQm6EDFSTrFz3OWLAQ6bBtSmn4BcWsGNwUiWVCBKZ0xCb4aUJEwiebGt4ZZay2nZOL-CanOXkFzNSNyaeoKRdHuL4xUVrsz7ArshpOVqFy5rwmyw&state=oiwn_HWcsHSvPJ4xxURAxw%3D%3D 230.90506ms 37 Bytes  ***
+2024-01-07T18:36:31.775+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 326.107537ms 675 Bytes  ***
+2024-01-07T18:37:12.729+0530	INFO	lt/handler.go:188	\"dbbbf1c1103ee9a7101a1d1d96dfb348b732c96fdbfe310cf87bbab0282f0c0b978f895586907b2cec9800b94dd3ad6283749734fb85d9c259a6f4d01dfdb87bfb643c9a963e33a92882227c88aa5dd77e017d86af560fe506e4800eaa2afd1a224bb9d9d4d3c1323d8be1c511fafe354a32b331e5aba438b5a2b47b6574acf5df1f4e10b9d136b1820289b128c11a06a2f272fdfe85fc6945df8d479f6a747786b8df1e3e9a133c300704994cfc5d3301c6eebfc5f57000b251d939c3b5fac69efdb21718ae3a71\" HEADERPART
+2024-01-07T18:39:05.070+0530	INFO	lt/manager.go:103	Auth token Check Failed : redisKey : INTERNAL_ACCESS_TOKEN_BQDwWSiK-LNv8kuxXERcKvB5kkCMA8qL7GOVRx8azQM5vtQwDTTH4hBCYJOPzXI4wYmBASH1zMsdyWGPy9ZD2tqE75UAt95zX99T7Ud-aB0IKre36xqSrhE9I4cRrBBvTecaukbU_iTzclSKAMf4KQ17sopGkDIskSU9-mjKS6g12bAEe2nwJrEdEcxvj3di3uTWrjIAYNibgk4bLJxXJA, redisKeyValue : "dbbbf1c1103ee9a7101a1d1d96dfb348b732c96fdbfe310cf87bbab0282f0c0b978f895586907b2cec9800b94dd3ad6283749734fb85d9c259a6f4d01dfdb87bfb643c9a963e33a92882227c88aa5dd77e017d86af560fe506e4800eaa2afd1a224bb9d9d4d3c1323d8be1c511fafe354a32b331e5aba438b5a2b47b6574acf5df1f4e10b9d136b1820289b128c11a06a2f272fdfe85fc6945df8d479f6a747786b8df1e3e9a133c300704994cfc5d3301c6eebfc5f57000b251d939c3b5fac69efdb21718ae3a71", authToken : \"dbbbf1c1103ee9a7101a1d1d96dfb348b732c96fdbfe310cf87bbab0282f0c0b978f895586907b2cec9800b94dd3ad6283749734fb85d9c259a6f4d01dfdb87bfb643c9a963e33a92882227c88aa5dd77e017d86af560fe506e4800eaa2afd1a224bb9d9d4d3c1323d8be1c511fafe354a32b331e5aba438b5a2b47b6574acf5df1f4e10b9d136b1820289b128c11a06a2f272fdfe85fc6945df8d479f6a747786b8df1e3e9a133c300704994cfc5d3301c6eebfc5f57000b251d939c3b5fac69efdb21718ae3a71\"
+2024-01-07T18:39:05.072+0530	INFO	api/web.go:134	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=GBAYE0601498 1m52.343592305s 76 Bytes  ***
+2024-01-07T18:40:53.864+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T18:40:53.865+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T18:40:53.950+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T18:40:53.958+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T18:41:22.857+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 324.218µs 307 Bytes
+2024-01-07T18:41:28.402+0530	INFO	lt/handler.go:51	BQCi3sAOQAhmkCHG65o3ESUTIRynBItIbJtMT9Y1nlKxRhtlxhzBbTDOsADetPu4B-QMQaMBpL-yMuclYRybch0pwuQsynVybQMmbPiEdbQSOitsXoyE6AwtRHw5NRLkCYhBDqoTOv7KwdnXLeOs7QJLMHH_xc6PVgROYixVmmb0yDz4MeJ0oHN-0Y3SJM1ePbbYrW3ibBs-OlLT828CpQ
+2024-01-07T18:41:28.403+0530	INFO	lt/handler.go:53	BQCi3sAOQAhmkCHG65o3ESUTIRynBItIbJtMT9Y1nlKxRhtlxhzBbTDOsADetPu4B-QMQaMBpL-yMuclYRybch0pwuQsynVybQMmbPiEdbQSOitsXoyE6AwtRHw5NRLkCYhBDqoTOv7KwdnXLeOs7QJLMHH_xc6PVgROYixVmmb0yDz4MeJ0oHN-0Y3SJM1ePbbYrW3ibBs-OlLT828CpQ
+2024-01-07T18:41:28.403+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQBy38yHGY5I899CcC8mysZKsq2JkTuC6H147lRPK11U-gHIzgD_Q8yCBD50Pspp0zFcYMlFeHz3-M0YTmMV4JhE5FVgEUeq8OsOszEAIlP8s6IE5p8o0Mr3aAk5CGRJ1sNDI1KETOuJ2CWkcnXfdOmR965_AhDJK5YJYhiEkYxhJxJyZuwvsSuavL8Ef7mGsEdJUI05MxV6u1Y690F2qf5OmS8KhikHQMl18kHHOb66mpZwqheRJA&state=esa8NKvy_oTsuxjsUoN5ew%3D%3D 5.220258781s 37 Bytes  ***
+2024-01-07T18:41:53.016+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 325.055248ms 671 Bytes  ***
+2024-01-07T18:43:04.788+0530	INFO	lt/handler.go:188	5a2c740cba7ca9115c52eedca1b76eb37644ba52ea143ac5e16cf1aae960ee23d20f24ab389cfb7e4e660cb81b1f54a2c2f7b5c60e1c5e10503e6f3a21d53ec329945cae191e96ab82d76df3ef9539a1777a087113dbc702dc25a502aec1792651f4efe5cdf4fbb31f5df38441e589801ea76bb3d2878baaed26524e29c0c680d7c40bb5e0c96e60ae46ab2c9ed5bcce615e1478b74091869960525631ce49fb96b76a753ee4823fd72038e65524ce68ca11301ef96cb3c20b57a6e099c6997e064ed96c0bcd6c24 HEADERPART
+2024-01-07T18:43:04.796+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byisrc?isrc=GBAYE0601498 8.259997ms 283 Bytes
+2024-01-07T18:44:10.084+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byartist?artist=The%20White%20Stripes 2.425755ms 84 Bytes
+2024-01-07T18:45:01.827+0530	INFO	api/web.go:136	GET 200 /api/v1/lt/spotify/get_byartist?artist=The%20Beatles 2.225021ms 287 Bytes
+2024-01-07T18:48:23.421+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 290.994164ms 665 Bytes  ***
+2024-01-07T18:53:16.566+0530	DEBUG	cache/redis.go:26	127.0.0.1:6379
+2024-01-07T18:53:16.568+0530	INFO	app/boot.go:35	Redis started.
+2024-01-07T18:53:16.657+0530	INFO	app/boot.go:44	Spotify Service  started.
+2024-01-07T18:53:16.665+0530	INFO	api/web.go:101	Starting web server @ -> Host: localhost, Port: 8888
+2024-01-07T18:53:57.508+0530	INFO	api/web.go:136	GET 307 /api/v1/lt/spotify/login 241.26µs 307 Bytes
+2024-01-07T18:53:58.021+0530	INFO	lt/handler.go:52	BQBkGANDyE9FllJa6XcpbRGF6y9nh7YrVEaZZZ0Bt3GxybGNfszj2h4jLLqzZ7J-Bw4y0gPJ9FsRP_Fe6qcP9gGg8TN2tO73vZWr8jRVgSj37P0cwH4ukiCZ2m0DaXIjWT6OBvZ_mHB4yx5ybOvHOgGwuKykJhI-t-LWvhMJ846VKtYQL3TUJn5V_LlUJwGY3zKgidEOq1Djzi0_mvcCEA
+2024-01-07T18:53:58.021+0530	INFO	lt/handler.go:54	BQBkGANDyE9FllJa6XcpbRGF6y9nh7YrVEaZZZ0Bt3GxybGNfszj2h4jLLqzZ7J-Bw4y0gPJ9FsRP_Fe6qcP9gGg8TN2tO73vZWr8jRVgSj37P0cwH4ukiCZ2m0DaXIjWT6OBvZ_mHB4yx5ybOvHOgGwuKykJhI-t-LWvhMJ846VKtYQL3TUJn5V_LlUJwGY3zKgidEOq1Djzi0_mvcCEA
+2024-01-07T18:53:58.021+0530	INFO	api/web.go:134	GET 307 /api/v1/lt/spotify/callback?code=AQDTKijyjMdYvaTiG_q54mdG4qcdT9G3Xr1Gxfyr7htX7xply50nBP97KEh8V3rOfQzKqO5QvXDt94DbCLkHxXq7Xsp26SnHu4DCBmbNreAnhWrW-sMZohgyA2QKHcr0mUV8UYeEsV_JJebf7kP1UdEBPtpsgv1mc941RY7X8De8DhkE2B-gYIFZeh7gWYkaBDRqISMtg7zoRlZcAHRjlkfUsso7CpKFZ9ulf_VSHDZxLyc48DXNww&state=FOuj4HBW-X3FiZnkpfrdpg%3D%3D 230.900124ms 37 Bytes  ***
+2024-01-07T18:54:06.330+0530	ERROR	lt/handler.go:164	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T18:54:06.331+0530	ERROR	lt/handler.go:86	ERROR: duplicate key value violates unique constraint "internal_tracks_pkey" (SQLSTATE 23505)
+2024-01-07T18:54:06.331+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 475.734468ms 161 Bytes  ***
+2024-01-07T18:54:26.170+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 305.66714ms 665 Bytes  ***
+2024-01-07T18:54:47.214+0530	INFO	api/web.go:134	POST 200 /api/v1/lt/spotify/create_track 238.651219ms 677 Bytes  ***

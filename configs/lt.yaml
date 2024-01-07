@@ -1,0 +1,23 @@
+# ENV Variables
+log_level: "debug"
+
+# Server configuration
+http_host: "localhost"
+http_port:  "8888"
+
+# Database configuration
+db_user: "postgres"
+db_password: "postgres"
+db_name: "spotify"
+db_host: "localhost"
+db_port: "5432"
+
+# Redis Configuration
+redis_host: "127.0.0.1"
+redis_port: 6379
+
+
+client_id: "3e5d8d3a7e75498aab26fbca864b13e6"
+client_secret: "10ea78148b164aaa9201113874cd351d"
+redirect_uri: "http://localhost:8888/api/v1/lt/spotify/callback"
+scopes: ["user-read-private", "user-read-email"]
